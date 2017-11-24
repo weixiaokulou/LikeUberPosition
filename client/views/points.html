@@ -1,0 +1,19 @@
+<div class="panel panel-default" ng-init="getPoints()">
+  <div class="panel-heading">
+    <h3 class="panel-title">Latest Points</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+    	<div ng-repeat="point in points">
+    		<div class="col-md-6">
+    			<div class="col-md-6">
+    				<h4>{{point.title}}</h4>
+            <h5>{{point.latitude}}</h5>
+            <h5>{{point.longitude}}</h5>
+    				<a class="btn btn-primary" href="#/points/details/{{point._id}}">View Details</a>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<a href="#/points">Go Back</a>
+<div class="panel panel-default" ng-init="getPoint()">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{point.title}}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-8">
+        <ul class="list-group">
+          <li class="list-group-item">Latitude: {{point.latitude}}</li>
+          <li class="list-group-item">Longitude: {{point.longitude}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="pull-right">
+  <a href="#/points/edit/{{point._id}}">Edit</a> |  <a href="#" ng-click="removePoint(point._id)">Delete</a>
+  </div>
