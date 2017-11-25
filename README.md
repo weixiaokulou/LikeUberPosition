@@ -2,6 +2,7 @@
 
 ### Tech in this project
 Front-end: Bootstrap, AngularJS
+
 Back-end:  Express, MongoDB, Node.JS, RESTful API
 
 ### Installing
@@ -30,7 +31,8 @@ Start the server:
 ```
 nodemon app.js
 ```
-open the http://localhost:3000
+Open http://localhost:3000
+
 ### Usage
 This is a simple full-stack web application. The points data are stored in MongoDB (Mlab) and can be fetched with RESTful API. Server is provide by Node.JS server(Express). 
 We can ADD,DELETE,UPDATE and READ position(s) like this:
