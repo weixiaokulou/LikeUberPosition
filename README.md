@@ -30,14 +30,14 @@ We can ADD,DELETE,UPDATE and READ position(s) like this:
 
 ### Database Schema
 { 
- titile:String, 
+ title:String, 
  latitude:String, 
  altitude:String 
 }
 
 ## Authors
 
-* **Rachel Gao** - *Initial work* - [PurpleBooth](https://github.com/weixiaokulou)
+* **Rachel Gao** - *Initial work* - [RachelGao](https://github.com/weixiaokulou)
 
 
 ## License
