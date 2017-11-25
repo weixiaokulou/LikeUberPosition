@@ -34,6 +34,7 @@ open the http://localhost:3000
 ### Usage
 This is a simple full-stack web application. The points data are stored in MongoDB (Mlab) and can be fetched with RESTful API. Server is provide by Node.JS server(Express). 
 We can ADD,DELETE,UPDATE and READ position(s) like this:
+
 Read
 <img width="1276" alt="readpoints" src="https://user-images.githubusercontent.com/14252593/33227999-483580be-d165-11e7-90aa-674f6ec62db5.png">
 Check one point
@@ -47,6 +48,7 @@ Add a point
  latitude:String, 
  altitude:String 
 }
+This data is store in my mlab, if you want to using your own DB, replace the mongoose link in ./app.js
 
 ## Authors
 
