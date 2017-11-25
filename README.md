@@ -37,9 +37,8 @@ We can ADD,DELETE,UPDATE and READ position(s) like this:
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Rachel Gao** - *Initial work* - [PurpleBooth](https://github.com/weixiaokulou)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
