@@ -38,7 +38,7 @@ This is a simple full-stack web application. The points data are stored in Mongo
 We can ADD,DELETE,UPDATE and READ position(s) like this:
 
 Read
-<img width="1276" alt="readpoints" src="https://user-images.githubusercontent.com/14252593/33227999-483580be-d165-11e7-90aa-674f6ec62db5.png">
+![with gmap](https://user-images.githubusercontent.com/14252593/33297569-90f20e2a-d396-11e7-8bfb-2d6fb8ed6998.png)
 Check one point
 <img width="1266" alt="update and delete" src="https://user-images.githubusercontent.com/14252593/33228020-08cebff2-d166-11e7-99e0-7cf34b5f28d9.png">
 Add a point
